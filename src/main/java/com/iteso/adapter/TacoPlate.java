@@ -9,10 +9,12 @@ public class TacoPlate {
    private ArrayList tacos;
 
     public TacoPlate(){
+
         tacos = new ArrayList();
     }
 
    public void addTaco(Taco taco){
+
        tacos.add(taco);
    }
 

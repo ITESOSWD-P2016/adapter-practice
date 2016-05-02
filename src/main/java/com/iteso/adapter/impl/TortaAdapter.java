@@ -10,6 +10,7 @@ public class TortaAdapter implements Taco{
     Torta torta;
 
     public TortaAdapter(Torta torta){
+
         this.torta = torta;
     }
 
