@@ -13,21 +13,21 @@ public class TortaAdapter implements Taco{
         this.torta = torta;
     }
 
-    @Override
+    
     public void fill() {
         torta.cutByHalf();
         torta.fill();
 
     }
 
-    @Override
+    
     public void fold() {
         torta.cover();
 
     }
 
-    @Override
-    public void printDescription() {
-        torta.printDescription();
+    
+    public String printDescription() {
+        return torta.printDescription();
     }
 }

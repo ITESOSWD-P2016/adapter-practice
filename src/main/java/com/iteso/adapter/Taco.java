@@ -6,5 +6,6 @@ package com.iteso.adapter;
 public interface Taco {
     public void fill();
     public void fold();
-    public void printDescription();
+    // Se modifica el tipo de dato devuelto para realizar pruebas
+    public String printDescription();
 }

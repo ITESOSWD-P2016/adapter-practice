@@ -7,5 +7,6 @@ public interface Torta {
     public void cutByHalf();
     public void fill();
     public void cover();
-    public void printDescription();
+    // Se modifica el tipo de dato devuelto para realizar pruebas
+    public String printDescription();
 }

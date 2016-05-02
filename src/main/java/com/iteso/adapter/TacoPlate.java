@@ -24,4 +24,12 @@ public class TacoPlate {
            taco.printDescription();
        }
    }
+   
+   public String getContent(){
+	   if (tacos.size()==0) return "The plate is empty";
+	    String result = "";
+	    for (int i = 0; i < tacos.size(); i++) 
+	        result += ((Taco)tacos.get(i)).printDescription() + ", ";
+	    return result.substring(0, result.length()-2);
+  }
 }
