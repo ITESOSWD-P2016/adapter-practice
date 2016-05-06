@@ -17,11 +17,19 @@ public class TortaPlate {
     }
 
     public void servePlate(){
+
         for (int i = 0; i < tortas.size(); i++){
             Torta torta = (Torta) tortas.get(i);
             torta.fill();
             torta.cover();
             torta.printDescription();
         }
+    }
+
+    public String getPlateContent(){
+        String result = "";
+        for (int i = 0; i < tortas.size(); i++)
+            result += ((Torta) tortas.get(i)).printDescription() + ", ";
+        return result;
     }
 }
