@@ -27,7 +27,8 @@ public class TortaAdapter implements Taco{
     }
 
 
-    public void printDescription() {
-        torta.printDescription();
+    public String printDescription() {
+
+        return torta.printDescription();
     }
 }

@@ -28,4 +28,11 @@ public class TortaPlate {
         }
     }
 
+    public String getAll(){
+        String result = "";
+        for (int i = 0; i < tortas.size(); i++)
+            result += ((Torta) tortas.get(i)).printDescription() + ", ";
+        return result;
+    }
+
 }

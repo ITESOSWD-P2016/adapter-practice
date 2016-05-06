@@ -6,5 +6,5 @@ package com.iteso.adapter;
 public interface Taco {
     public void fill();
     public void fold();
-    public void printDescription();
+    public String printDescription();
 }

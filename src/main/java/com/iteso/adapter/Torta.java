@@ -7,5 +7,5 @@ public interface Torta {
     public void cutByHalf();
     public void fill();
     public void cover();
-    public void printDescription();
+    public String printDescription();
 }
